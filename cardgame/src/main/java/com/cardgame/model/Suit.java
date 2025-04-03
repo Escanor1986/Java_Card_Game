@@ -4,15 +4,15 @@ package com.cardgame.model;
 public enum Suit {
     DIAMONDS(1), HEARTS(2), SPADES(3), CLUBS(4);
 
-    int suit;
+    private final int value;
 
     // Constructeur de l'énumération
-    Suit(int suit) {
-        this.suit = suit;
+    Suit(int value) {
+        this.value = value;
     }
 
     // Méthode pour obtenir la valeur de la couleur
     public int getSuit() {
-        return suit;
+        return value;
     }
 }
