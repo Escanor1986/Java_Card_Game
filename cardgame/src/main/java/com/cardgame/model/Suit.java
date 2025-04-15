@@ -12,7 +12,7 @@ public enum Suit {
     }
 
     // Méthode pour obtenir la valeur de la couleur
-    public int getSuit() {
+    public int value() {
         return value;
     }
 }

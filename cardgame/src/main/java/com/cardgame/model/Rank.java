@@ -24,9 +24,8 @@ public enum Rank {
   }
 
   // Méthode pour obtenir la valeur du rang
-  public int getValue() {
+  public int value() {
     return value;
   }
 
 }
-

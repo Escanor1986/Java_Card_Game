@@ -29,7 +29,7 @@ public class Deck {
       shuffle();
   }
 
-  private void shuffle() {
+  public void shuffle() {
     // On mélange le paquet de cartes
     for (int i = cards.size() - 1; i > 0; i--) {
       Collections.swap(cards, i, random.nextInt(cards.size()));
